@@ -1,4 +1,7 @@
 #라이브러리를 이용하여 데이터 세트 가져오기
+!pip install scikit-learn
+!pip install matplotlib
+
 from sklearn import datasets
 iris = datasets.load_iris()
 
